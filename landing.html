@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Best Used Phones in Delhi. Grab the Deal Now.</title>
+</head>
+
+<body>
+    <!-- in the navbar section specify the background details of navbar site. -->
+    <nav class="bg-purple-800 text-white flex justify-between">
+        <!-- embedding the image in the site. -->
+        <span class="text-xl flex items-center mx-3 font-bold">
+            PhoneMania
+        </span>
+        <!-- <img src="https://randomuser.me/api/portraits/men/75.jpg" class="h-12 pt-3 px-3 rounded-3xl" alt="" srcset=""> -->
+        <!-- This is the usecase of tailwind and its classes help us to do the designing directly without making the css file separately -->
+        <!-- each class flex and space-x-3 is written here and it has impact on designing on site directly via html file without using exlicitly css file here. -->
+        <!-- justify-end will shift the content to the rightmost position on website -->
+        <ul class="px-28 py-4 flex space-x-3 justify-end">
+            <li class="custor-pointer">Home</li>
+            <li class="custor-pointer">About Us</li>
+            <li class="custor-pointer">Contact Us</li>
+            <li class="custor-pointer">Phone Catalogue</li>
+        </ul>
+    </nav>
+    <!-- let's create the other section of the site -->
+    <!-- main section in the site of the tailwind css -->
+    <main class="bg-fuchsia-100 flex justify-around">
+        <div class="main h-120 pl-9">
+            <div class="text-6xl py-20">
+                The Best Phones in the Town.
+            </div>
+            <p class="px-2 py-3 w-1/3">Phones that are readily available in the market shows the growth rate of potential
+                reach to audiences in mass occurences.ptates aperiam, itaque quas? Nam voluptatibus dolores veritatis
+                rerum quos, molestias iusto deserunt quo ut debitis autem, est consectetur hic!</p>
+            <!-- my-4 to create the gap between the buttons -->
+            <div class="my-4">
+                <!-- usecase of tailwind css in small code works for so many features added -->
+                <!-- Usecase of example of tailwind css -->
+                <button class="bg-purple-400 px-3 py-2 rounded-2xl text-white hover:text-purple-900 hover:bg-white hover:border-black mx-2">Buy Now</button>
+                <button class="bg-purple-400 px-3 py-2 rounded-2xl text-white hover:text-purple-900 hover:bg-white hover:border-black mx-2">Contact Us</button>
+            </div>
+            <div>
+                <!-- putting the image in the center of the site -->
+                <div class="flex justify-center">
+                    <!-- inside this a class has specified h-60 which specifies the height of the image also the image is justify content and center alligned -->
+                              <img src="https://plus.unsplash.com/premium_photo-1663054893054-5dc0aa4e7d49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1217&q=80" class="h-80" alt="">
+                </div>
+    </main>
+    <hr>
+</body>
+</html>
